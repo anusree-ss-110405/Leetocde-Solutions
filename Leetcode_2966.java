@@ -1,6 +1,7 @@
+// You are using Java
 import java.util.*;
-class Solution {
-    public int[][] divideArray(int[] nums, int k) {
+class Leetcode_2966 {
+    public static int[][] divideArray(int[] nums, int k) {
         if(nums.length % 3 != 0)
         {
             return new int [][] {};
@@ -25,4 +26,18 @@ class Solution {
         }
         return ans;
     }
+    public static void main(String[] args)
+    {
+         int[] nums = {1, 3, 4, 8, 7, 9, 3, 5, 1};
+        int k = 2;
+        int[][] result = divideArray(nums, k);
+        for (int[] arr : result) {
+            System.out.println(Arrays.toString(arr));
+        }
+    };
 }
+
+
+
+
+
