@@ -2,7 +2,7 @@
 #include <vector>
 #include <string>
 using namespace std;
-class Solution {
+class Leetcode_1773 {
 public:
     int countMatches(vector<vector<string>>& items, string ruleKey, string ruleValue) {
         int m = items.size();

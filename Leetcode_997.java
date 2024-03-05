@@ -1,4 +1,4 @@
-public class Main {
+public class Leetcode_997 {
     public static int findJudge(int n, int[][] trust) {
         int[] get_trust = new int[n+1];
         int[] give_trust = new int[n+1];

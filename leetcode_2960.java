@@ -1,4 +1,4 @@
-class Solution {
+class Leetcode_2960 {
     public int countTestedDevices(int[] batteryPercentages) {
         int n=batteryPercentages.length;
         int count=0;
